@@ -1,0 +1,52 @@
+//Universal button for project
+
+button {
+  border: none;
+  display: block;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: $normal;
+  }
+}
+
+.button {
+  background-color: $bright_red;
+  color: $white;
+  display: block;
+  padding: 16px 0 16px 0;
+  max-width: 138px;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 13px;
+}
+
+//Header
+
+.header__button {
+  padding: 16px 31px;
+  max-width: 138px;
+  flex: 1 1 138px;
+}
+
+//Slider button ---- Testimonial/Quotes
+.quotes__button {
+  margin: 0 auto;
+}
+
+//Footer
+
+.footer__top-button {
+  background-color: $white;
+  color: $bright_red;
+  font-weight: 700;
+  display: block;
+  font-weight: 700;
+  max-width: 136px;
+  flex: 1 1 136px;
+}
+
+.footer__bottom-post-button {
+  max-width: 64px !important;
+  flex: 1 1 64px;
+}
