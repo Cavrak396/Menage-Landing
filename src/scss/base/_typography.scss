@@ -1,0 +1,16 @@
+/*TYPOGRAPGHY*/ 
+body {
+    font-family: "Be Vietnam Pro";
+}
+//Universal paragraph size / text size
+p {
+    font-size: 16px;
+    color: $grayish_blue;
+}
+
+//Headers
+h1,
+h3,
+h4 {
+  color: $dark_blue;
+}
