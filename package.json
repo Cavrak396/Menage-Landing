@@ -1,0 +1,21 @@
+{
+  "name": "menage-landing",
+  "version": "1.0.0",
+  "description": "This is project for DevIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
+    "autoprefixer": "^10.4.12",
+    "gulp-postcss": "^9.0.1",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^5.0.1",
+    "underscore": "^1.8.3"
+  },
+  "author": "Cavrak",
+  "license": "ISC"
+}
